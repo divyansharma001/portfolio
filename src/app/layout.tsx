@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 
+import { TracingBeam } from "@/components/ui/tracing-beam";
+import Navbar from "@/components/Navbar";
+
 const poppins = Poppins({
   subsets: ['latin'],
   display: 'swap',
@@ -21,7 +24,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body className={poppins.className}>
+      <div className="relative w-full flex items-center justify-center">
+        <Navbar/>
+        </div>
+        {children}
+        </body>
     </html>
   );
 }
