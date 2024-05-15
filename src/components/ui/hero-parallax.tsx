@@ -112,7 +112,7 @@ export const Header = () => {
         From sleek UIs with Next.js and React.js to robust databases like
         PostgreSQL, MongoDB, and MySQL, I&apos;ve got the tools to bring your
         projects to life. Need to integrate APIs or payment systems? No problem.
-        I've also got security covered with Bcrypt and communication streamlined
+        I&apos;ve also got security covered with Bcrypt and communication streamlined
         with Nodemailer. And when it comes to frontend, I&apos;ve mastered jQuery,
         Bootstrap, and Tailwind for responsive and stylish designs.
       </p>
