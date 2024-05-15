@@ -18,7 +18,8 @@ export function LampDemo() {
         className="mt-8 w-full bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
         I build the web. <br />
-        Let's create something amazing together. 
+        Let&apos;s create something amazing together.
+
       </motion.h1>
 
     </LampContainer>
