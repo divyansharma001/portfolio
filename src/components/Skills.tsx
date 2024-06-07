@@ -10,93 +10,93 @@ export const products = [
     title: "Moonbeam",
     link: "https://gomoonbeam.com",
     thumbnail:
-      "/image.png",
+      "/javascript.png",  //not visible
   },
   {
-    title: "Cursor",
-    link: "https://cursor.so",
+    title: "Postman",
+    link: "https://learning.postman.com/docs/introduction/overview/",
     thumbnail:
-      "/image.png",
+      "/postman.png", //isn't visible that much
   },
   {
-    title: "Rogue",
-    link: "https://userogue.com",
+    title: "Java(Currently Learning)",
+    link: "https://docs.oracle.com/en/java/",
     thumbnail:
-      "/image.png",
+      "/java.png",
   },
 
   {
-    title: "Editorially",
-    link: "https://editorially.org",
+    title: "Javascript",
+    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     thumbnail:
-      "/image.png",
+      "/javascript.png",
   },
   {
-    title: "Editrix AI",
-    link: "https://editrix.ai",
+    title: "Typescript",
+    link: "https://www.typescriptlang.org/docs/",
     thumbnail:
-      "/image.png",
+      "/ts.png",
   },
   {
     title: "Pixel Perfect",
     link: "https://app.pixelperfect.quest",
     thumbnail:
-      "/image.png",
+      "/ts.png", //nv
   },
 
   {
     title: "Algochurn",
     link: "https://algochurn.com",
     thumbnail:
-      "/image.png",
+      "/ts.png",
   },
   {
-    title: "Aceternity UI",
-    link: "https://ui.aceternity.com",
+    title: "PostgreSQL",
+    link: "https://www.postgresql.org/docs/",
     thumbnail:
-      "/image.png",
+      "/postgresql.png",
   },
   {
-    title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
+    title: "Next.js",
+    link: "https://nextjs.org/docs",
     thumbnail:
-      "/image.png",
+      "/next.png",
   },
   {
     title: "SmartBridge",
     link: "https://smartbridgetech.com",
     thumbnail:
-      "/image.png",
+      "/mern.png",
   },
   {
     title: "Renderwork Studio",
     link: "https://renderwork.studio",
     thumbnail:
-      "/image.png",
+      "/react.png",
   },
 
   {
     title: "Creme Digital",
     link: "https://cremedigital.com",
     thumbnail:
-      "/image.png",
+      "/react.png",
   },
   {
     title: "Golden Bells Academy",
     link: "https://goldenbellsacademy.com",
     thumbnail:
-      "/image.png",
+      "/react.png",
   },
   {
     title: "Invoker Labs",
     link: "https://invoker.lol",
     thumbnail:
-      "/image.png",
+      "/react.png",
   },
   {
     title: "E Free Invoice",
     link: "https://efreeinvoice.com",
     thumbnail:
-      "/image.png",
+      "/react.png",
   },
 ];
