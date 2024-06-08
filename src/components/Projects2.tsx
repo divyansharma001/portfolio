@@ -4,8 +4,8 @@ import { PinContainer } from "./ui/3d-pin";
 
 export function AnimatedPinDemo() {
   return (
-    <div className="grid grid-cols-6">
-      <div className="h-[40rem] w-full flex items-center justify-center col-span-2">
+    <div className="grid xl:grid-cols-6 sm:grid-cols-1">
+      <div className="h-[40rem] w-full flex items-center justify-center xl:col-span-2 sm:col-span-1">
         <PinContainer
           title="Github"
           href="https://github.com/divyansharma001/BloodLink"
@@ -24,7 +24,7 @@ export function AnimatedPinDemo() {
         </PinContainer>
         </div>
 
-        <div className="h-[40rem] w-full flex items-center justify-center col-span-2">
+        <div className="h-[40rem] w-full flex items-center justify-center xl:col-span-2 sm:col-span-1">
         <PinContainer
           title="Github"
           href="https://github.com/divyansharma001/FoodFly"
@@ -43,7 +43,7 @@ export function AnimatedPinDemo() {
         </PinContainer>
         </div>
        
-        <div className="h-[40rem] w-full flex items-center justify-center col-span-2">
+        <div className="h-[40rem] w-full flex items-center justify-center xl:col-span-2 sm:col-span-1">
         <PinContainer
           title="Github"
           href="https://github.com/divyansharma001/CypherCraft"
@@ -62,7 +62,7 @@ export function AnimatedPinDemo() {
         </PinContainer>
         </div>  
 
-        <div className="h-[40rem] w-full flex items-center justify-center col-span-2">
+        <div className="h-[40rem] w-full flex items-center justify-center xl:col-span-2 sm:col-span-1">
         <PinContainer
           title="Github"
           href="https://github.com/divyansharma001/uvProtect"
@@ -81,7 +81,7 @@ export function AnimatedPinDemo() {
         </PinContainer>
         </div>
 
-        <div className="h-[40rem] w-full flex items-center justify-center col-span-2">
+        <div className="h-[40rem] w-full flex items-center justify-center xl:col-span-2 sm:col-span-1">
         <PinContainer
           title="Github"
           href="https://github.com/divyansharma001/blogProject"
@@ -100,7 +100,7 @@ export function AnimatedPinDemo() {
         </PinContainer>
         </div>
 
-        <div className="h-[40rem] w-full flex items-center justify-center col-span-2">
+        <div className="h-[40rem] w-full flex items-center justify-center xl:col-span-2 sm:col-span-1">
         <PinContainer
           title="Github"
           href="https://github.com/divyansharma001/TodoUsingReact"
