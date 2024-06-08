@@ -4,7 +4,7 @@ import { PinContainer } from "./ui/3d-pin";
 
 export function AnimatedPinDemo() {
   return (
-    <div className="grid xl:grid-cols-6 sm:grid-cols-1">
+    <div className="grid xl:grid-cols-6 sm:grid-cols-3">
       <div className="h-[40rem] w-full flex items-center justify-center xl:col-span-2 sm:col-span-1">
         <PinContainer
           title="Github"
