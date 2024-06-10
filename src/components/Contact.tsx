@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { BackgroundBeams } from "./ui/background-beams";
-import Link from "next/link";
 
 export function BackgroundBeamsDemo() {
   return (
@@ -14,12 +13,14 @@ export function BackgroundBeamsDemo() {
         <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
           Always seeking collaboration with talented individuals and innovative
           teams! Recruiters, welcome to connect with exciting opportunities. For
-          potential collaborators, I&apos;m open to exploring impactful projects
-          that push boundaries.
+          potential collaborators, I&apos;m open to exploring impactful projects that
+          push boundaries.
         </p>
-        <Link href={"/"} className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
-          Reach me
-        </Link>
+        <input
+          type="text"
+          placeholder="Enter your message"
+          className="rounded-lg border border-neutral-800 focus:ring-2 focus:ring-teal-500  w-full relative z-10 mt-4  bg-neutral-950 placeholder:text-neutral-700"
+        />
       </div>
       <BackgroundBeams />
     </div>
