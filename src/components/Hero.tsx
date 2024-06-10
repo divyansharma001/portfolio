@@ -18,9 +18,9 @@ export function HeroHighlightDemo() {
           duration: 0.5,
           ease: [0.4, 0.0, 0.2, 1],
         }}
-        className="text-2xl px-4 md:text-2xl lg:text-4xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug  mx-auto "
+        className="text-2xl px-4 md:text-2xl lg:text-4xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug  mx-auto pt-40"
       >
-        <div className="p-7">
+        <div className="xl:p-7">
   I wear many hats &ndash; I design the visuals{" "}
   <p>
     <Highlight className="text-black dark:text-white">
