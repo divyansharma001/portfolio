@@ -1,6 +1,9 @@
 "use client";
 import React from "react";
 import { BackgroundBeams } from "./ui/background-beams";
+import { Button } from "./ui/moving-border"
+import Link from "next/link";
+
 
 export function BackgroundBeamsDemo() {
   return (
@@ -16,11 +19,18 @@ export function BackgroundBeamsDemo() {
           potential collaborators, I&apos;m open to exploring impactful projects that
           push boundaries.
         </p>
-        <input
-          type="text"
-          placeholder="Enter your message"
-          className="rounded-lg border border-neutral-800 focus:ring-2 focus:ring-teal-500  w-full relative z-10 mt-4  bg-neutral-950 placeholder:text-neutral-700"
-        />
+        <div className="flex justify-center pt-5 ">
+        
+        <a
+            href="https://google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800 rounded-md px-4 py-2"
+          >
+            Contact me!
+          </a>
+      
+    </div>
       </div>
       <BackgroundBeams />
     </div>

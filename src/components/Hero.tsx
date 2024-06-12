@@ -4,7 +4,8 @@ import { HeroHighlight, Highlight } from "./ui/hero-highlight";
 
 export function HeroHighlightDemo() {
   return (
-    <HeroHighlight>
+   
+    <HeroHighlight >
       <motion.h1
         initial={{
           opacity: 0,
@@ -45,5 +46,6 @@ export function HeroHighlightDemo() {
 
       </motion.h1>
     </HeroHighlight>
+
   );
 }
